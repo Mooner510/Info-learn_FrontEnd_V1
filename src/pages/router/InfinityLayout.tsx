@@ -6,8 +6,6 @@ import Header from "../../components/Header";
 import {Colors} from "../../styles/theme/color";
 
 const InfinityLayout = () => {
-
-
     return (
         <>
             <Global/>
@@ -22,6 +20,7 @@ const InfinityLayout = () => {
 const Global = createGlobalStyle`
   body {
     background-color: ${Colors.Gray100};
+    height: 100vh;
   }
 `
 
